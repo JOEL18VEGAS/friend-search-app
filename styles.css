@@ -1,0 +1,220 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+
+/* Medium Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    background-color: #fbfadf;
+}
+
+/* Header Styles Start*/
+
+/* logo-a */
+.logo-a {
+    display: inline-block;
+    margin: 30px 0 20px 60px;
+}
+
+/* logo */
+.logo {
+    height: 50px;
+}
+
+/* Header Styles End*/
+
+/*  Main Styles Start */
+
+/* container-main */
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* container */
+.container {
+    width: 46vw;
+    height: 86vh;
+}
+
+/* container-center */
+.container-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* container-db */
+.container-db {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: #fff2f2;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -3px 4px 5px 3px rgba(0, 0, 0, 0.37);
+}
+
+/* input-search */
+#input-search {
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    stroke: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+/* input-search placeholder */
+#input-search::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+/* icon-search */
+.icon-search {
+    height: 25px;
+}
+
+/* icon-search */
+.icon-search:active {
+    height: 22px;
+}
+
+/* container-dc_r ( right ) */
+.container-dc_r {
+    position: absolute;
+    z-index: 0;
+    width: 40vw;
+    height: 78vh;
+    margin: 0 0 0 30px;
+    background-color: #e23a0b8a;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: -3px 6px 5px 3px rgba(0, 0, 0, 0.37);
+}
+
+.card-friend {
+    display: flex;
+    justify-content: center;
+}
+
+/* friends-img */
+.friends-img {
+    position: absolute;
+    bottom: -14px;
+    height: 84%;
+}
+
+/* container-sd */
+.container-sd {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 20px 0;
+    width: 100%;
+}
+
+/* boton */
+#boton {
+    width: 250px;
+    height: 60px;
+    background-color: #e23a0b8a;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: #fbfadf;
+    -webkit-text-stroke: 1px black;
+    box-shadow: -3px 4px 5px 3px rgba(0, 0, 0, 0.37);
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Delius", cursive;
+    user-select: none;
+}
+
+/* container-fix */
+.container-fix {
+    height: 82vh;
+    overflow: auto;
+}
+
+.container-fix::-webkit-scrollbar {
+    display: none;
+}
+
+/* container-dc_l */
+.container-dc_l {
+    position: absolute;
+    bottom: 20px;
+    z-index: -1;
+    width: 40vw;
+    height: 78vh;
+    margin: 0 0 0 30px;
+    background-color: #e23a0b8a;
+    box-shadow: -3px 6px 5px 3px rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    border: 2px solid black;
+    /* overflow: auto; */
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.75) inset,
+        0px -5px 5px -5px rgba(0, 0, 0, 0.75) inset;
+}
+
+/* card-all */
+.card-all {
+    display: flex;
+    justify-content: center;
+}
+
+/* li-card */
+.li-card {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 10px 12px;
+    margin: 20px;
+    width: 350px;
+    background-color: #fff2f2;
+    border-radius: 10px;
+    box-shadow: -3px 6px 5px 3px rgba(0, 0, 0, 0.37);
+    border: 2px solid black;
+}
+
+/* avatar-img */
+.avatar-img {
+    height: 100px;
+}
+
+/* span ( quitar ) */
+.span-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 2px;
+    font-family: Quicksand, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* icon-li */
+.icon-li {
+    margin-right: 5px;
+}
+
+/* text-nfd */
+.text-nfd {
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+/* Main Styles End */
